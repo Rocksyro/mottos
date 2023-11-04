@@ -31,8 +31,11 @@ main{
 }
 .frases-container{
     position: relative;
+    top:100%
 }
 .frase1{
+    background: linear-gradient(90deg, #D2D0D0 10.71%, #FDFCFC 107.64%);
+    padding: 30px;;
 }
 .frase1 p{
     color: #ED1C24;
@@ -43,6 +46,18 @@ main{
     font-weight: 700;
     line-height: normal;
 }
+.frase2{
+    border-radius: 3px;
+    background: linear-gradient(270deg, #D2D0D0 4.42%, #FDFCFC 94.65%);
+    color: #5F605D;
+    font-family: Alegreya Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 30px;
+    text-align: center;
+    }
 .vector{
     position: absolute;
     width: 651px;
