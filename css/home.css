@@ -1,0 +1,54 @@
+main{
+    height: 100vh;
+}
+.banner-container{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.banner{
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+.descripcion-banner{
+    position: absolute;
+    top: 363px;
+    left: 60%; /*1177px*/
+    color: #FFF;
+    text-align: right;
+    font-family: Alegreya Sans;
+    font-size: 35px; /* 55 */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 522px;
+    height: 330px;
+    z-index: 3;
+}
+.descripcion-banner h1{
+    margin-bottom: 5%;
+}
+.frases-container{
+    position: relative;
+}
+.frase1{
+}
+.frase1 p{
+    color: #ED1C24;
+    text-align: center;
+    font-family: Alegreya Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.vector{
+    position: absolute;
+    width: 651px;
+    height: 651px;
+    top: 200px;
+    right: -50px;
+    fill: rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}

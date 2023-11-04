@@ -1,0 +1,58 @@
+footer{
+    margin-top: 25px;
+    height: 150px;
+    background-color: #F8F8F8;
+    padding: 40px 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    margin-left: -50px;
+    color: #5F605D;
+    font-family: Alegreya Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /*
+    height: 80%;
+    border-left: #5F605D 1px solid;
+    */
+}
+
+.info div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div hr{
+    height: 100%;
+}
+
+/*
+.direccion p{
+    border-left: thin solid #5F605D;
+    margin: 5px;
+}
+*/
+footer hr{
+    height: 100%;
+}
+
+.redes img{
+    width: 50px;
+}
